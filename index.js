@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Carrusel</title>
-    <link rel="stylesheet" href="carrusel.css">
-    <link rel="stylesheet" href="index.js">
-    <script src="jquery-3.3.1.slim.js" type="text/javascript"></script>
+<script src="jquery-3.3.1.slim.js" type="text/javascript"></script>
     <script type="text/javascript">
         var imgs =  [0,1,2,3,4];
         const cursor =["./izq.jpg","der.jpg"];
@@ -118,23 +112,3 @@
         });
         
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <div class="all">
-        <div class="pictures">
-            <div id="cursor1"></div>
-            <div id="img1"></div>
-            <div id="img2"></div>
-            <div id="img3"></div>
-            <div id="img4"></div>
-            <div id="img5"></div>
-            <div id="cursor2"></div>
-        </div>
-        <div class="amplified"></div>
-    </div>
-</body>
-</html>
