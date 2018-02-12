@@ -1,0 +1,66 @@
+.all{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    text-align: center;
+}
+body{
+    background: black;
+
+}
+.pictures{
+    height: 30%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.pictures div{
+    margin: auto;
+    margin-left: 2%;
+    height: 10%;
+    width: 30%;
+
+}
+.pictures img{
+    height: 100%;
+    width: 100%;
+}
+#cursor1{
+    margin-top: 5%;
+    height: 10%;
+    width: 25%;
+}
+#cursor2{
+    margin-top: 5%;
+    height: 10%;
+    width: 25%;
+}
+#cursor1 img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+#cursor2 img{
+     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.amplified{
+    margin: auto;
+    height: 80%;
+    width: 70%;
+}
+.amplified img {
+    height: 100%;
+    width: 100%;
+}
